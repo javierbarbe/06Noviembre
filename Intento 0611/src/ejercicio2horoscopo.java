@@ -1,4 +1,4 @@
-
+package tema4;
 import java.util.Scanner;
 public class ejercicio2horoscopo {
 
@@ -8,7 +8,7 @@ Scanner entrada=new Scanner(System.in);
 int anyo,animal;
 
 do {
-System.out.println("Introduce anyo de nacimiento");
+System.out.println("Introduce año de nacimiento");
 anyo=entrada.nextInt();
 
 	animal=anyo%12;
